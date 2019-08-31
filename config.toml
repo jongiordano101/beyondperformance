@@ -1,13 +1,13 @@
 baseURL = "https://beyondperformance.us"
 languageCode = "en-us"
-title = "Infinity Comming Soon Template By Themefisher"
+title = "Beyond Performance"
 theme = "infinity-hugo"
 
 [params]
 
     # Navigation
     [params.navigation]
-        logo = "images/logo.png"
+        logo = "images/bp-logo.png"
         home = "Home"
         about = "About"
         service = "Services"
@@ -21,8 +21,8 @@ theme = "infinity-hugo"
         subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
         btnText     = "Get Started"
         countdownYear = "2019"
-        countdownMonth = "12"
-        countdownDay  = "27"
+        countdownMonth = "10"
+        countdownDay  = "1"
 
     # About Section
     [params.about]
