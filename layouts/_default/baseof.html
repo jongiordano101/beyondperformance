@@ -6,5 +6,7 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+      	{{- if templates.Exists "partials/extra-foot.html" -}}
+      	{{ partial "extra-foot.html" . }}
     </body>
 </html>
