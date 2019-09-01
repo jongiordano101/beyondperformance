@@ -13,12 +13,20 @@
                         {{ end }}
                         <div class="col-lg-6 offset-lg-3">
                             <div class="input-group">
+
                               <form action="https://www.getdrip.com/forms/97853479/submissions" method="post" data-drip-embedded-form="97853479">
-                                <input type="text" class="form-control" placeholder="Your Email Address Here" name="fields[email]">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default btn-subscription" type="button">Subscribe</button>
-                                </span>
-                              </form>
+    <div>
+        <label for="drip-email">Email Address</label><br />
+        <input class="form-control" type="email" id="drip-email" name="fields[email]" value="" />
+    </div>
+  <div style="display: none;" aria-hidden="true">
+    <label for="website">Website</label><br />
+    <input type="text" id="website" name="website" tabindex="-1" autocomplete="false" value="" />
+  </div>
+  <div class="input-group-btn">
+    <input type="submit" value="Sign Up" data-drip-attribute="sign-up-button" class="btn btn-default btn-subscription" />
+  </div>
+</form>  
                             </div>
 
 
